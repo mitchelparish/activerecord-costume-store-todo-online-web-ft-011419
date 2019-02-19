@@ -7,8 +7,9 @@ class CreateCostumes < ActiveRecord::Migration
       t.string :image_url
       t.string :size
       t.timestamps
-    end      
+    end
   end
+end 
 
 
 # Create a class and inherit from ActiveRecord::Migration
