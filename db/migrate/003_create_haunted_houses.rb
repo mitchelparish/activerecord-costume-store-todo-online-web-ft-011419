@@ -1,6 +1,6 @@
 class CreateHauntedHouses < ActiveRecord::Migration[4.2]
 
-  def change 
+  def change
     create_table :haunted_houses do |t|
       t.string :name
       t.string :location
@@ -10,8 +10,8 @@ class CreateHauntedHouses < ActiveRecord::Migration[4.2]
       t.datetime :opening_date
       t.datetime :closing_date
       t.text :description
-      
 
 
 
-  end 
+
+  end
