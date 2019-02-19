@@ -9,7 +9,7 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
       t.timestamps
     end
   end
-end 
+end
 
 
 # Create a class and inherit from ActiveRecord::Migration
