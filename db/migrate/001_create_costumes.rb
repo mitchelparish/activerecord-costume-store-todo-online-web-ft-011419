@@ -1,4 +1,4 @@
-class CreateCostumes < ActiveRecord::Migration 
+class CreateCostumes < ActiveRecord::Migration
 
   def change
     create_table :costumes do |t|
@@ -8,7 +8,7 @@ class CreateCostumes < ActiveRecord::Migration
       t.string :size
       t.timestamps
     end      
-  end 
+  end
 
 
 # Create a class and inherit from ActiveRecord::Migration
@@ -18,5 +18,5 @@ class CreateCostumes < ActiveRecord::Migration
 # 002_create_costumes.rb becomes class CreateCostumes
 
 # Define a change method in which to do the migration
-# In this change method, create columns with the correct names and 
+# In this change method, create columns with the correct names and
 # value types according to the spec
